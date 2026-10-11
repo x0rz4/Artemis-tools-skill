@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "planning",
+  "recorded_at": "2026-10-12",
+  "lock_source": {
+    "repository": "x0rz4/Artemis-registry",
+    "commit": "b7b7c34af9fa43b1413bc267df27bde4ffcaf7d9",
+    "path": "packaging/tools-lock.json",
+    "url": "https://github.com/x0rz4/Artemis-registry/blob/b7b7c34af9fa43b1413bc267df27bde4ffcaf7d9/packaging/tools-lock.json",
+    "sha256": "f7ea38e600366e38af88212a3e7b2f875ca8284a497888ec1c069ac8c906d7db"
+  },
+  "tools": [
+    {
+      "name": "httpx",
+      "tool_version": "1.12.0",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/projectdiscovery/httpx",
+      "release": "https://github.com/projectdiscovery/httpx/releases/tag/v1.12.0",
+      "planned_skill": "httpx",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "HTTP 探活、标题与技术识别、结构化输出"
+    },
+    {
+      "name": "naabu",
+      "tool_version": "2.6.1",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/projectdiscovery/naabu",
+      "release": "https://github.com/projectdiscovery/naabu/releases/tag/v2.6.1",
+      "planned_skill": "naabu",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "端口输入、扫描方式、权限和依赖"
+    },
+    {
+      "name": "subfinder",
+      "tool_version": "2.17.0",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/projectdiscovery/subfinder",
+      "release": "https://github.com/projectdiscovery/subfinder/releases/tag/v2.17.0",
+      "planned_skill": "subfinder",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "被动子域发现、数据源、去重与范围过滤"
+    },
+    {
+      "name": "katana",
+      "tool_version": "1.8.0",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/projectdiscovery/katana",
+      "release": "https://github.com/projectdiscovery/katana/releases/tag/v1.8.0",
+      "planned_skill": "katana",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "爬取范围、深度、URL 与接口输出"
+    },
+    {
+      "name": "ffuf",
+      "tool_version": "2.3.0",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/ffuf/ffuf",
+      "release": "https://github.com/ffuf/ffuf/releases/tag/v2.3.0",
+      "planned_skill": "ffuf",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "字典、匹配与过滤、结果噪声处理"
+    },
+    {
+      "name": "nuclei",
+      "tool_version": "3.11.1",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/projectdiscovery/nuclei",
+      "release": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.11.1",
+      "planned_skill": "nuclei",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "模板选择及版本、输出证据、故障分类"
+    },
+    {
+      "name": "fscan",
+      "tool_version": "2.2.2",
+      "platforms": [
+        "linux/amd64",
+        "linux/arm64"
+      ],
+      "upstream": "https://github.com/shadow1ng/fscan",
+      "release": "https://github.com/shadow1ng/fscan/releases/tag/v2.2.2",
+      "planned_skill": "fscan",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "模块选择、版本参数、输出分类"
+    },
+    {
+      "name": "kscan",
+      "tool_version": "1.85",
+      "platforms": [
+        "linux/amd64"
+      ],
+      "upstream": "https://github.com/lcvvvv/kscan",
+      "release": "https://github.com/lcvvvv/kscan/releases/tag/v1.85",
+      "planned_skill": "kscan",
+      "status": "planned",
+      "tested_tool_versions": [],
+      "focus": "端口与指纹识别、架构与输出限制"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "repository": "danielmiessler/PAIPlugin",
+      "path": "skills/ffuf/SKILL.md",
+      "commit": "6125f29522966c169dc6e1929187f5685aa7dfa4",
+      "url": "https://github.com/danielmiessler/PAIPlugin/blob/6125f29522966c169dc6e1929187f5685aa7dfa4/skills/ffuf/SKILL.md",
+      "archived": false,
+      "blob_sha": "e70b5f5bfef81b7314e1998a28fe8ee03f2f491a",
+      "repository_license": "MIT",
+      "file_license_review": "pending",
+      "status": "candidate",
+      "checked_at": "2026-10-12",
+      "tool_version_validation": "pending",
+      "applicable_tools": [
+        "ffuf"
+      ],
+      "copied": false
+    },
+    {
+      "repository": "yaklang/hack-skills",
+      "path": "skills/recon-and-methodology/SKILL.md",
+      "commit": "6fbf0bc8d5c71830d62543a308d8744606c43d7c",
+      "url": "https://github.com/yaklang/hack-skills/blob/6fbf0bc8d5c71830d62543a308d8744606c43d7c/skills/recon-and-methodology/SKILL.md",
+      "archived": false,
+      "blob_sha": "1cd459b01d237ebaf29e6526a006220c0ca4e975",
+      "repository_license": "MIT",
+      "file_license_review": "pending",
+      "status": "candidate",
+      "checked_at": "2026-10-12",
+      "tool_version_validation": "pending",
+      "applicable_tools": [
+        "subfinder",
+        "httpx",
+        "katana",
+        "ffuf"
+      ],
+      "copied": false
+    }
+  ]
+}
