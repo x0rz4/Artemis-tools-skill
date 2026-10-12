@@ -9,6 +9,9 @@
 - `skill-creator/scripts/quick_validate.py`：八项元数据与正文检查通过。
 - 使用 Artemis 已锁定的 Norma v0.4.3 `skill.LoadDir` 加载八个实际目录，逐个调用 `Registry.Tool().Call`：八项均返回独立指导消息，name、description、license 及参考入口完整。此验证不连接数据库，不调用扫描器。
 - 工作流 actionlint 通过；自动检查只调用固定二进制的帮助命令，不执行 Skill 中的目标示例。
+- [双架构 CI](https://github.com/x0rz4/Artemis-tools-skill/actions/runs/38197253177) 通过，验证提交 `e64f769`：Linux amd64 八项、arm64 七项的归档下载摘要、入口文件摘要、架构和帮助选项均通过。kscan 未在 arm64 执行。
+- 首次 CI 在锁文件校验处失败：先前摘要来自 Windows CRLF 工作区。核对固定提交原始文件后修正为 Git blob 摘要，JSON 内容未改变；后续上述 CI 完整通过。
+- 本次 34 个本地文档引用、catalog JSON 解析及 `git diff --check` 通过。
 
 ## 核验中的关键差异
 
@@ -20,6 +23,6 @@
 
 ## 验证边界
 
-双架构帮助检查状态以本仓库 Actions 与覆盖表为准。帮助检查只证明二进制可运行且识别相关选项，不证明目标扫描、示例输出或端到端编排正确。
+双架构帮助检查通过。帮助检查只证明二进制可运行且识别相关选项，不证明目标扫描、示例输出或端到端编排正确。
 
 本次未采集真实扫描输出、未连接业务数据库、未导入用户运行中的 Skill 库、未修改 command 执行器，也未将八份 Skill 发布到 Registry 稳定源。输出字段和错误处理依赖固定源码审阅；真实输出样本与隔离靶场验证留在 P2。

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "authored",
+  "status": "verified",
   "recorded_at": "2026-10-12",
   "lock_source": {
     "repository": "x0rz4/Artemis-registry",
@@ -20,8 +20,10 @@
       ],
       "upstream": "https://github.com/projectdiscovery/httpx",
       "release": "https://github.com/projectdiscovery/httpx/releases/tag/v1.12.0",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "1.12.0"
+      ],
       "focus": "HTTP 探活、标题与技术识别、结构化输出",
       "skill_path": "skills/httpx/SKILL.md",
       "skill_version": "1.0.0",
@@ -32,9 +34,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -46,8 +52,10 @@
       ],
       "upstream": "https://github.com/projectdiscovery/naabu",
       "release": "https://github.com/projectdiscovery/naabu/releases/tag/v2.6.1",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "2.6.1"
+      ],
       "focus": "端口输入、扫描方式、权限和依赖",
       "skill_path": "skills/naabu/SKILL.md",
       "skill_version": "1.0.0",
@@ -58,9 +66,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -72,8 +84,10 @@
       ],
       "upstream": "https://github.com/projectdiscovery/subfinder",
       "release": "https://github.com/projectdiscovery/subfinder/releases/tag/v2.17.0",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "2.17.0"
+      ],
       "focus": "被动子域发现、数据源、去重与范围过滤",
       "skill_path": "skills/subfinder/SKILL.md",
       "skill_version": "1.0.0",
@@ -84,9 +98,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -98,8 +116,10 @@
       ],
       "upstream": "https://github.com/projectdiscovery/katana",
       "release": "https://github.com/projectdiscovery/katana/releases/tag/v1.8.0",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "1.8.0"
+      ],
       "focus": "爬取范围、深度、URL 与接口输出",
       "skill_path": "skills/katana/SKILL.md",
       "skill_version": "1.0.0",
@@ -110,9 +130,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -124,8 +148,10 @@
       ],
       "upstream": "https://github.com/ffuf/ffuf",
       "release": "https://github.com/ffuf/ffuf/releases/tag/v2.3.0",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "2.3.0"
+      ],
       "focus": "字典、匹配与过滤、结果噪声处理",
       "skill_path": "skills/ffuf/SKILL.md",
       "skill_version": "1.0.0",
@@ -136,9 +162,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -150,8 +180,10 @@
       ],
       "upstream": "https://github.com/projectdiscovery/nuclei",
       "release": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.11.1",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "3.11.1"
+      ],
       "focus": "模板选择及版本、输出证据、故障分类",
       "skill_path": "skills/nuclei/SKILL.md",
       "skill_version": "1.0.0",
@@ -162,9 +194,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -176,8 +212,10 @@
       ],
       "upstream": "https://github.com/shadow1ng/fscan",
       "release": "https://github.com/shadow1ng/fscan/releases/tag/v2.2.2",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "2.2.2"
+      ],
       "focus": "模块选择、版本参数、输出分类",
       "skill_path": "skills/fscan/SKILL.md",
       "skill_version": "1.0.0",
@@ -188,9 +226,13 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed",
+          "linux/arm64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     },
     {
@@ -201,8 +243,10 @@
       ],
       "upstream": "https://github.com/lcvvvv/kscan",
       "release": "https://github.com/lcvvvv/kscan/releases/tag/v1.85",
-      "status": "reviewed",
-      "tested_tool_versions": [],
+      "status": "verified",
+      "tested_tool_versions": [
+        "1.85"
+      ],
       "focus": "端口与指纹识别、架构与输出限制",
       "skill_path": "skills/kscan/SKILL.md",
       "skill_version": "1.0.0",
@@ -213,10 +257,15 @@
         "source_review": "passed",
         "metadata_and_references": "passed",
         "norma_0_4_3_load_and_invoke": "passed",
-        "binary_help": "pending",
+        "binary_help": {
+          "linux/amd64": "passed"
+        },
         "target_scan": "not_run",
-        "registry_published": false
+        "registry_published": false,
+        "scope": "metadata, source declarations, load/invoke, binary help; no target scan"
       }
     }
-  ]
+  ],
+  "verification_run": "https://github.com/x0rz4/Artemis-tools-skill/actions/runs/38197253177",
+  "verification_commit": "e64f769e1ca281a5bd60386d2692164ab474d34b"
 }
