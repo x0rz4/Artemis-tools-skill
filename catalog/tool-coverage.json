@@ -7,7 +7,8 @@
     "commit": "b7b7c34af9fa43b1413bc267df27bde4ffcaf7d9",
     "path": "packaging/tools-lock.json",
     "url": "https://github.com/x0rz4/Artemis-registry/blob/b7b7c34af9fa43b1413bc267df27bde4ffcaf7d9/packaging/tools-lock.json",
-    "sha256": "f7ea38e600366e38af88212a3e7b2f875ca8284a497888ec1c069ac8c906d7db"
+    "sha256": "11c84e715af0b024ae3b064d710d3ca2e7f9e403e9f375214de23fd216a0132f",
+    "byte_format": "git_blob"
   },
   "tools": [
     {
