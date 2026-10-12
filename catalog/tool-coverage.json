@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "status": "planning",
+  "status": "authored",
   "recorded_at": "2026-10-12",
   "lock_source": {
     "repository": "x0rz4/Artemis-registry",
@@ -19,10 +19,22 @@
       ],
       "upstream": "https://github.com/projectdiscovery/httpx",
       "release": "https://github.com/projectdiscovery/httpx/releases/tag/v1.12.0",
-      "planned_skill": "httpx",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "HTTP 探活、标题与技术识别、结构化输出"
+      "focus": "HTTP 探活、标题与技术识别、结构化输出",
+      "skill_path": "skills/httpx/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "1.12.0"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "naabu",
@@ -33,10 +45,22 @@
       ],
       "upstream": "https://github.com/projectdiscovery/naabu",
       "release": "https://github.com/projectdiscovery/naabu/releases/tag/v2.6.1",
-      "planned_skill": "naabu",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "端口输入、扫描方式、权限和依赖"
+      "focus": "端口输入、扫描方式、权限和依赖",
+      "skill_path": "skills/naabu/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "2.6.1"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "subfinder",
@@ -47,10 +71,22 @@
       ],
       "upstream": "https://github.com/projectdiscovery/subfinder",
       "release": "https://github.com/projectdiscovery/subfinder/releases/tag/v2.17.0",
-      "planned_skill": "subfinder",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "被动子域发现、数据源、去重与范围过滤"
+      "focus": "被动子域发现、数据源、去重与范围过滤",
+      "skill_path": "skills/subfinder/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "2.17.0"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "katana",
@@ -61,10 +97,22 @@
       ],
       "upstream": "https://github.com/projectdiscovery/katana",
       "release": "https://github.com/projectdiscovery/katana/releases/tag/v1.8.0",
-      "planned_skill": "katana",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "爬取范围、深度、URL 与接口输出"
+      "focus": "爬取范围、深度、URL 与接口输出",
+      "skill_path": "skills/katana/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "1.8.0"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "ffuf",
@@ -75,10 +123,22 @@
       ],
       "upstream": "https://github.com/ffuf/ffuf",
       "release": "https://github.com/ffuf/ffuf/releases/tag/v2.3.0",
-      "planned_skill": "ffuf",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "字典、匹配与过滤、结果噪声处理"
+      "focus": "字典、匹配与过滤、结果噪声处理",
+      "skill_path": "skills/ffuf/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "2.3.0"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "nuclei",
@@ -89,10 +149,22 @@
       ],
       "upstream": "https://github.com/projectdiscovery/nuclei",
       "release": "https://github.com/projectdiscovery/nuclei/releases/tag/v3.11.1",
-      "planned_skill": "nuclei",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "模板选择及版本、输出证据、故障分类"
+      "focus": "模板选择及版本、输出证据、故障分类",
+      "skill_path": "skills/nuclei/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "3.11.1"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "fscan",
@@ -103,10 +175,22 @@
       ],
       "upstream": "https://github.com/shadow1ng/fscan",
       "release": "https://github.com/shadow1ng/fscan/releases/tag/v2.2.2",
-      "planned_skill": "fscan",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "模块选择、版本参数、输出分类"
+      "focus": "模块选择、版本参数、输出分类",
+      "skill_path": "skills/fscan/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "2.2.2"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     },
     {
       "name": "kscan",
@@ -116,10 +200,22 @@
       ],
       "upstream": "https://github.com/lcvvvv/kscan",
       "release": "https://github.com/lcvvvv/kscan/releases/tag/v1.85",
-      "planned_skill": "kscan",
-      "status": "planned",
+      "status": "reviewed",
       "tested_tool_versions": [],
-      "focus": "端口与指纹识别、架构与输出限制"
+      "focus": "端口与指纹识别、架构与输出限制",
+      "skill_path": "skills/kscan/SKILL.md",
+      "skill_version": "1.0.0",
+      "reviewed_tool_versions": [
+        "1.85"
+      ],
+      "validation": {
+        "source_review": "passed",
+        "metadata_and_references": "passed",
+        "norma_0_4_3_load_and_invoke": "passed",
+        "binary_help": "pending",
+        "target_scan": "not_run",
+        "registry_published": false
+      }
     }
   ]
 }

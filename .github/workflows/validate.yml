@@ -1,0 +1,60 @@
+name: validate-skills
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  help:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-24.04
+            platform: linux/amd64
+            tools: httpx,naabu,subfinder,katana,ffuf,nuclei,fscan,kscan
+            arch: amd64
+          - runner: ubuntu-24.04-arm
+            platform: linux/arm64
+            tools: httpx,naabu,subfinder,katana,ffuf,nuclei,fscan
+            arch: arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/checkout@v4
+        with:
+          repository: x0rz4/Artemis-registry
+          ref: b7b7c34af9fa43b1413bc267df27bde4ffcaf7d9
+          path: .cache/registry
+          persist-credentials: false
+      - name: Validate content and pinned lock
+        run: python scripts/validate_skills.py --lock .cache/registry/packaging/tools-lock.json
+      - name: Install runtime dependency
+        run: sudo apt-get update && sudo apt-get install -y libpcap0.8
+      - name: Download and verify locked binaries into isolated directory
+        env:
+          PLATFORM: ${{ matrix.platform }}
+          TOOLS: ${{ matrix.tools }}
+        run: >-
+          python .cache/registry/scripts/install_tools.py
+          --lock-file .cache/registry/packaging/tools-lock.json
+          --platform "$PLATFORM" --tools "$TOOLS" --output "$RUNNER_TEMP/skill-tools"
+      - name: Verify documented flags with help only
+        env:
+          PLATFORM: ${{ matrix.platform }}
+        run: >-
+          python scripts/validate_skills.py --tools-root "$RUNNER_TEMP/skill-tools"
+          --platform "$PLATFORM" --help-output .cache/help
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: tool-help-${{ matrix.arch }}
+          path: .cache/help
+          if-no-files-found: ignore

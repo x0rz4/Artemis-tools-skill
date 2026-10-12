@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-12",
+  "tools": {
+    "httpx": {
+      "repository": "projectdiscovery/httpx",
+      "tag": "v1.12.0",
+      "commit": "4b6a9a9d476f94a4f3a630f37051f5671ecfb1f8",
+      "files": [
+        {
+          "path": "runner/options.go",
+          "url": "https://github.com/projectdiscovery/httpx/blob/4b6a9a9d476f94a4f3a630f37051f5671ecfb1f8/runner/options.go",
+          "sha256": "b910224dcb5d7ade18d2c5109838ab84963e4b5fd432d5d5a5c4bb610642ab91"
+        },
+        {
+          "path": "runner/types.go",
+          "url": "https://github.com/projectdiscovery/httpx/blob/4b6a9a9d476f94a4f3a630f37051f5671ecfb1f8/runner/types.go",
+          "sha256": "8b955d2cb325c951ceff1bfdc8ad64ed395a2ee98765b1bcc0ee2347c4fab60d"
+        }
+      ]
+    },
+    "naabu": {
+      "repository": "projectdiscovery/naabu",
+      "tag": "v2.6.1",
+      "commit": "5a0ca8bde91b5bb16213e9e8b5c6871eac954bd8",
+      "files": [
+        {
+          "path": "pkg/runner/options.go",
+          "url": "https://github.com/projectdiscovery/naabu/blob/5a0ca8bde91b5bb16213e9e8b5c6871eac954bd8/pkg/runner/options.go",
+          "sha256": "c24e8ad4cafb335cac3778e43ed26152fec1982962276c5bee1da0bd7384e155"
+        },
+        {
+          "path": "pkg/runner/output.go",
+          "url": "https://github.com/projectdiscovery/naabu/blob/5a0ca8bde91b5bb16213e9e8b5c6871eac954bd8/pkg/runner/output.go",
+          "sha256": "5631aab5433db2aab988c0ffd2dcb3aeceba268213b9938857483201b7e8026e"
+        },
+        {
+          "path": "README.md",
+          "url": "https://github.com/projectdiscovery/naabu/blob/5a0ca8bde91b5bb16213e9e8b5c6871eac954bd8/README.md",
+          "sha256": "81a9617bf294e1c75da03a08f22254ddf2e3340220e9202ce69aaff5b13eed12"
+        }
+      ]
+    },
+    "subfinder": {
+      "repository": "projectdiscovery/subfinder",
+      "tag": "v2.17.0",
+      "commit": "c97f25802892093060f0fc424bfc3f39e273693a",
+      "files": [
+        {
+          "path": "pkg/runner/options.go",
+          "url": "https://github.com/projectdiscovery/subfinder/blob/c97f25802892093060f0fc424bfc3f39e273693a/pkg/runner/options.go",
+          "sha256": "1ffc84202e430355df8bf6c9b859a57b7c3c48e0c16ec157f59ad9e845cd0230"
+        },
+        {
+          "path": "pkg/runner/outputter.go",
+          "url": "https://github.com/projectdiscovery/subfinder/blob/c97f25802892093060f0fc424bfc3f39e273693a/pkg/runner/outputter.go",
+          "sha256": "2d03c227d96a8c32ceeb6bd7ac442844b1a4329c3edeb71949319e6229e19b24"
+        }
+      ]
+    },
+    "katana": {
+      "repository": "projectdiscovery/katana",
+      "tag": "v1.8.0",
+      "commit": "35267ac5c8ff1db9694a319d0eb466ed97b0969f",
+      "files": [
+        {
+          "path": "cmd/katana/main.go",
+          "url": "https://github.com/projectdiscovery/katana/blob/35267ac5c8ff1db9694a319d0eb466ed97b0969f/cmd/katana/main.go",
+          "sha256": "ab1e3885298160f4b780ec5514083e0b2ba622bddb7f87de0a0e0b5062fad7f0"
+        },
+        {
+          "path": "pkg/output/result.go",
+          "url": "https://github.com/projectdiscovery/katana/blob/35267ac5c8ff1db9694a319d0eb466ed97b0969f/pkg/output/result.go",
+          "sha256": "62e0ee6104effc35107abbcf7c65d4da4c95557d0b2f03a78b3250c2de331e4d"
+        },
+        {
+          "path": "pkg/navigation/request.go",
+          "url": "https://github.com/projectdiscovery/katana/blob/35267ac5c8ff1db9694a319d0eb466ed97b0969f/pkg/navigation/request.go",
+          "sha256": "bddbf9e0661aeb7f6c44f19fb6db7835c2a33263a5b0cc1564770c5f6cdea6e5"
+        },
+        {
+          "path": "pkg/navigation/response.go",
+          "url": "https://github.com/projectdiscovery/katana/blob/35267ac5c8ff1db9694a319d0eb466ed97b0969f/pkg/navigation/response.go",
+          "sha256": "d1dde6451d62bfba5c458236186df6f8121905056e2a2e9aaf3991bf21646ff5"
+        }
+      ]
+    },
+    "ffuf": {
+      "repository": "ffuf/ffuf",
+      "tag": "v2.3.0",
+      "commit": "256c1b02499f5f8672af965d4ad7a321d606bc65",
+      "files": [
+        {
+          "path": "main.go",
+          "url": "https://github.com/ffuf/ffuf/blob/256c1b02499f5f8672af965d4ad7a321d606bc65/main.go",
+          "sha256": "b4ab1ea221feb4c5eda383c1f80a97e6e051ff475151cf11049fa205642b3dc6"
+        },
+        {
+          "path": "pkg/ffuf/optionsparser.go",
+          "url": "https://github.com/ffuf/ffuf/blob/256c1b02499f5f8672af965d4ad7a321d606bc65/pkg/ffuf/optionsparser.go",
+          "sha256": "f641ed02e065aac11d404248cb168ade00c02077c0efd32c5d8f48dde5c9e7f8"
+        },
+        {
+          "path": "pkg/output/file_json.go",
+          "url": "https://github.com/ffuf/ffuf/blob/256c1b02499f5f8672af965d4ad7a321d606bc65/pkg/output/file_json.go",
+          "sha256": "085fc0f414935ddeac35011cc268d31606597a83139c07a9fa0862816ea2ab31"
+        }
+      ]
+    },
+    "nuclei": {
+      "repository": "projectdiscovery/nuclei",
+      "tag": "v3.11.1",
+      "commit": "a8c88feb4a1c8e961b7902534ce3af97e9d524a4",
+      "files": [
+        {
+          "path": "cmd/nuclei/main.go",
+          "url": "https://github.com/projectdiscovery/nuclei/blob/a8c88feb4a1c8e961b7902534ce3af97e9d524a4/cmd/nuclei/main.go",
+          "sha256": "b9231a0b134c685a29c87058b9a9c21d6b50ed2879e6f9ffaad7a93f7784622a"
+        },
+        {
+          "path": "pkg/output/output.go",
+          "url": "https://github.com/projectdiscovery/nuclei/blob/a8c88feb4a1c8e961b7902534ce3af97e9d524a4/pkg/output/output.go",
+          "sha256": "c196693e1c3aad57b8e4e98e635258a316c814911fe733f15a9cbedd4ff024c5"
+        }
+      ]
+    },
+    "fscan": {
+      "repository": "shadow1ng/fscan",
+      "tag": "v2.2.2",
+      "commit": "2ede41d743b87743b11f69e85dd37c634c1c0ef6",
+      "files": [
+        {
+          "path": "common/flag.go",
+          "url": "https://github.com/shadow1ng/fscan/blob/2ede41d743b87743b11f69e85dd37c634c1c0ef6/common/flag.go",
+          "sha256": "e02389efab3b9e7ac1471a7ce3c5ee0e84241d7ccfff37d877de5cf660788821"
+        },
+        {
+          "path": "common/output/types.go",
+          "url": "https://github.com/shadow1ng/fscan/blob/2ede41d743b87743b11f69e85dd37c634c1c0ef6/common/output/types.go",
+          "sha256": "7c4bc8362f94876f1b2ebc49ff2c16d749046b72c6000ffb05096e408544e7d5"
+        },
+        {
+          "path": "common/output/writers.go",
+          "url": "https://github.com/shadow1ng/fscan/blob/2ede41d743b87743b11f69e85dd37c634c1c0ef6/common/output/writers.go",
+          "sha256": "ec87c79d8ed2c5fd57e457875229cb793f944e928d66afad870b68e2273ce132"
+        }
+      ]
+    },
+    "kscan": {
+      "repository": "lcvvvv/kscan",
+      "tag": "v1.85",
+      "commit": "a23ead9f143769c0114e08de26e0b1d159512d91",
+      "files": [
+        {
+          "path": "app/type-args.go",
+          "url": "https://github.com/lcvvvv/kscan/blob/a23ead9f143769c0114e08de26e0b1d159512d91/app/type-args.go",
+          "sha256": "d501626fe7bbf9b281ffea21cb6431136de553434dd01f34a039c575ed3cf34f"
+        },
+        {
+          "path": "app/type-config.go",
+          "url": "https://github.com/lcvvvv/kscan/blob/a23ead9f143769c0114e08de26e0b1d159512d91/app/type-config.go",
+          "sha256": "fc959881a04b43b74cb347095ad3f99bbfc382e32e2cbb12459111647138ff74"
+        },
+        {
+          "path": "kscan.go",
+          "url": "https://github.com/lcvvvv/kscan/blob/a23ead9f143769c0114e08de26e0b1d159512d91/kscan.go",
+          "sha256": "1d93324bc8b09a10459b87fee7ab44a7ba68fc4f6c48841ad5aab8bd9924fc13"
+        },
+        {
+          "path": "run/run.go",
+          "url": "https://github.com/lcvvvv/kscan/blob/a23ead9f143769c0114e08de26e0b1d159512d91/run/run.go",
+          "sha256": "86895b368ce884612bcc8bac12cfd3f487e04dda47a3c651afe196ffa6d401d7"
+        }
+      ]
+    }
+  }
+}
